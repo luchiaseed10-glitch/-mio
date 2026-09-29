@@ -93,14 +93,14 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#e0dede",
+      secondary: "#c3c3c3",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287",
-      error: "#ED4245",
-      warning: "#FEE75C",
-      info: "#3498DB",
+      success: "#d3cece",
+      error: "#949191",
+      warning: "#272727",
+      info: "#464444",
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -117,31 +117,31 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#d3cece",
+        ended: "#272727",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#949191",
+        claimed: "#949191",
+        closed: "#464444",
+        pending: "#464444",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#FFFFFFF",
+      birthday: "#FFFFFF",
+      moderation: "#FFFFFF",
 
       // Ticket priority color mapping.
       priority: {
-        none: "#95A5A6",
-        low: "#3498db",
-        medium: "#2ecc71",
-        high: "#f1c40f",
-        urgent: "#e74c3c",
+        none: "#FFFFFF",
+        low: "#d3cece",
+        medium: "#272727",
+        high: "#464444",
+        urgent: "#080808",
       },
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "/mio",
       // Footer icon URL (null = no icon).
       icon: null,
     },

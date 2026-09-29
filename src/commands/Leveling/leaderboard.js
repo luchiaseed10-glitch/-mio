@@ -20,7 +20,7 @@ export default {
       await InteractionHelper.safeEditReply(interaction, {
         embeds: [
           new EmbedBuilder()
-            .setColor('#f1c40f')
+            .setColor('#949191')
             .setDescription('The leveling system is currently disabled on this server.')
         ],
         flags: MessageFlags.Ephemeral

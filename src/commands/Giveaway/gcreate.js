@@ -116,7 +116,7 @@ export default {
         const row = createGiveawayButtons(false);
 
         const giveawayMessage = await targetChannel.send({
-            content: "null",
+            content: "",
             embeds: [embed],
             components: [row],
         });
